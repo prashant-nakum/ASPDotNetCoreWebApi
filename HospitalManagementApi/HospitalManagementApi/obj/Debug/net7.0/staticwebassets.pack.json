@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\CSS\\adminPage.css",
+      "PackagePath": "staticwebassets\\CSS\\adminPage.css"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\CSS\\home.css",
+      "PackagePath": "staticwebassets\\CSS\\home.css"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\CSS\\patientRegister.css",
+      "PackagePath": "staticwebassets\\CSS\\patientRegister.css"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\Images\\img1.png",
+      "PackagePath": "staticwebassets\\Images\\img1.png"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\Images\\img2.png",
+      "PackagePath": "staticwebassets\\Images\\img2.png"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\Images\\img3.png",
+      "PackagePath": "staticwebassets\\Images\\img3.png"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\Images\\img4.png",
+      "PackagePath": "staticwebassets\\Images\\img4.png"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\JS\\doctorRegister.js",
+      "PackagePath": "staticwebassets\\JS\\doctorRegister.js"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\JS\\patientRegister.js",
+      "PackagePath": "staticwebassets\\JS\\patientRegister.js"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\adminAppointments.html",
+      "PackagePath": "staticwebassets\\View\\adminAppointments.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\adminDoctor.html",
+      "PackagePath": "staticwebassets\\View\\adminDoctor.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\adminPage.html",
+      "PackagePath": "staticwebassets\\View\\adminPage.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\doctorPage.html",
+      "PackagePath": "staticwebassets\\View\\doctorPage.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\doctorRegister.html",
+      "PackagePath": "staticwebassets\\View\\doctorRegister.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\loginPage.html",
+      "PackagePath": "staticwebassets\\View\\loginPage.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\patient.html",
+      "PackagePath": "staticwebassets\\View\\patient.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\patientRegister.html",
+      "PackagePath": "staticwebassets\\View\\patientRegister.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\profile.html",
+      "PackagePath": "staticwebassets\\View\\profile.html"
+    },
+    {
+      "Id": "D:\\Z_sem 6\\WSD\\HospitalManagementApi\\HospitalManagementApi\\wwwroot\\View\\registerAppointment.html",
+      "PackagePath": "staticwebassets\\View\\registerAppointment.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HospitalManagementApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HospitalManagementApi.props",
+      "PackagePath": "build\\HospitalManagementApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HospitalManagementApi.props",
+      "PackagePath": "buildMultiTargeting\\HospitalManagementApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HospitalManagementApi.props",
+      "PackagePath": "buildTransitive\\HospitalManagementApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

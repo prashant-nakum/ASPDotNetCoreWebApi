@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../CSS/adminPage.css" />
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="adminPage.html">Patients</a></li>
+                <li><a href="adminDoctor.html">Doctors</a></li>
+                <li><a href="doctorRegister.html">Register Doctors</a></li>
+                <li><a href="patientRegister.html">Register Patient</a></li>
+                <li><a class="active">Appointments</a></li>
+                <li><a href="javascript:void(0)" onclick="window.history.back()">Back</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p id="counter"></p>
+    <table id="table-appointments">
+        <tr>
+            <th>Email</th>
+            <th>DateTime</th>
+            <th>Slot</th>
+            <th>Patient Id</th>
+            <th>Doctor Id</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="appointments"></tbody>
+    </table>
+
+    <div id="container">
+        <div id="edit-form">
+            <div class="title">Edit</div>
+            <div class="content">
+                <form action="javascript:void(0);" onsubmit="getDoctos()">
+                    <div class="user-details">
+                        <input type="hidden" id="edit-id" />
+
+                        <div id="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" id="patientmail" placeholder="Enter your email" required>
+                        </div>
+
+                        <div id="input-box">
+                            <span class="details">Date</span>
+                            <input type="date" id="app-date" onchange="handleSlot()" placeholder="Enter date" required>
+                        </div>
+                        <div id="input-box">
+                            <span class="details">Department</span>
+                            <select class="department-detail" id="department">
+                                <option>Eye</option>
+                                <option>Orthopadic</option>
+                                <option>Heart</option>
+                                <option>Fever</option>
+                                <option>Skin</option>
+                                <option>Dental</option>
+                                <option>Gynaecology</option>
+                            </select>
+                        </div>
+                        <div id="input-box">
+                            <span class="details">Time slot</span>
+                            <select class="department-detail" id="time-slot">
+                                <option>Select Slot</option>
+                                <option value="9 AM">9 AM</option>
+                                <option value="9.30 AM">9.30 AM</option>
+                                <option value="10 AM">10 AM</option>
+                                <option value="10.30 PM">10.30 AM</option>
+                                <option value="11 AM">11 AM</option>
+                                <option value="11.30 AM">11.30 AM</option>
+                                <option value="12 PM">12 PM</option>
+                                <option value="12.30 PM">12.30 PM</option>
+                                <option value="1 PM">1 PM</option>
+                                <option value="1.30 PM">1.30 PM</option>
+                                <option value="2 PM">2 PM</option>
+                                <option value="2.30 PM">2.30 PM</option>
+                                <option value="3 PM">3 PM</option>
+                                <option value="3.30 PM">3.30 PM</option>
+                                <option value="4 PM">4 PM</option>
+                                <option value="4.30 PM">4.30 PM</option>
+                                <option value="5 PM">5 PM</option>
+                                <option value="5.30 PM">5.30 PM</option>
+                            </select>
+                        </div>
+                        <div id="button">
+                            <input type="submit" value="Update" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-..."></script>
+    <script src="../JS/appointment.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getAppointments();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

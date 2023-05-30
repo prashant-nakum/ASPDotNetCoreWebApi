@@ -1,0 +1,263 @@
+﻿
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+}
+
+header {
+    background: linear-gradient(135deg, #2bb3b5, #132c6b);
+    color: #fff;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: revert;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #c0e5f6;
+    color: #333;
+}
+
+nav ul li a.active {
+    background-color: #c0e5f6;
+    color: #333;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+    .banner h2 {
+        font-size: 48px;
+        margin: 0;
+    }
+
+    .banner p {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+
+.about h2,
+.services h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .services ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .services li {
+        font-size: 24px;
+        padding: 20px;
+        margin: 20px 10px;
+        border: 1px solid #333;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+        .services li:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+
+    .services button {
+        display: none;
+    }
+
+    .services li {
+        font-size: 24px;
+        border: 1px solid #333;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+
+        .services li:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .services li:first-child {
+            margin-left: 0;
+        }
+
+        .services li:last-child {
+            margin-right: 0;
+        }
+
+    .services button {
+        display: none;
+    }
+
+.banner {
+    background-image: url("https://source.unsplash.com/1200x600/?hospital");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+    .banner::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        background-color: #000;
+        z-index: -1;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .banner:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        transition: all 0.5s ease-in-out;
+    }
+
+
+    /*style for profile page*/
+
+
+/* Style the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the profile */
+.profile {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+    /* Style the hover effect */
+    .profile:hover {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Style the profile picture */
+    .profile img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+
+        /* Style the hover effect on the profile picture */
+        .profile img:hover {
+            transform: rotate(360deg);
+        }
+
+    /* Style the profile name */
+    .profile h1 {
+        margin-top: 0;
+    }
+
+/* Style the buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+/* Style the button */
+.back-button,
+.update-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    /* Style the hover effect on the button */
+    .back-button:hover,
+    .update-button:hover {
+        background-color: #3e8e41;
+    }
+
+/* Style the hoverable effect */
+.hoverable {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+    /* Style the hoverable effect on hover */
+    .hoverable:hover:before {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+
+    /* Style the hoverable effect before element */
+    .hoverable:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: scaleX(0);
+        transform-origin: center;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.2);
+        z-index: -1;
+    }

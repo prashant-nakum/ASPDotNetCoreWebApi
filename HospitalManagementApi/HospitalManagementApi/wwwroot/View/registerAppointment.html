@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../CSS/patientRegister.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Appointment</div>
+        <div class="content">
+            <form method="POST" onsubmit="getPatients()" action="javascript:void(0)">
+                <div class="user-details">
+
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" id="patientmail" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Date</span>
+                        <input type="date" id="app-date" onchange="handleSlot()" placeholder="Enter date" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Department</span>
+                        <select class="department-detail" id="department">
+                            <option>Eye</option>
+                            <option>Orthopadic</option>
+                            <option>Heart</option>
+                            <option>Fever</option>
+                            <option>Skin</option>
+                            <option>Dental</option>
+                            <option>Gynaecology</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Time slot</span>
+                        <select class="department-detail" id="time-slot">
+                            <option>Select Slot</option>
+                            <option value="9 AM">9 AM</option>
+                            <option value="9.30 AM">9.30 AM</option>
+                            <option value="10 AM">10 AM</option>
+                            <option value="10.30 PM">10.30 AM</option>
+                            <option value="11 AM">11 AM</option>
+                            <option value="11.30 AM">11.30 AM</option>
+                            <option value="12 PM">12 PM</option>
+                            <option value="12.30 PM">12.30 PM</option>
+                            <option value="1 PM">1 PM</option>
+                            <option value="1.30 PM">1.30 PM</option>
+                            <option value="2 PM">2 PM</option>
+                            <option value="2.30 PM">2.30 PM</option>
+                            <option value="3 PM">3 PM</option>
+                            <option value="3.30 PM">3.30 PM</option>
+                            <option value="4 PM">4 PM</option>
+                            <option value="4.30 PM">4.30 PM</option>
+                            <option value="5 PM">5 PM</option>
+                            <option value="5.30 PM">5.30 PM</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Apply">
+                    <a href="https://buy.stripe.com/test_dR6aF39ON6Y82LS000">Pay</a>
+                </div>
+                <div class="button">
+                    <button id="bttn" onclick="history.back()">Back</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="../JS/appointment.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-..."></script>
+</body>
+</html>
